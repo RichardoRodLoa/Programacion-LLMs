@@ -1,0 +1,17 @@
+El Problema:
+
+Recibes un DataFrame con características numéricas y una columna objetivo binaria. Necesitas entrenar un modelo de regresión logística y devolver las predicciones.
+
+Tu Misión:
+
+Escribe una función llamada entrenar_logistica(df, target_col) que:
+
+Separe las características (X) y la variable objetivo (y).
+
+Entrene un modelo de LogisticRegression de sklearn.
+
+Devuelva un vector con las predicciones del modelo sobre los mismos datos de entrenamiento.
+
+Función Generadora de Casos de Uso:
+
+generar_caso_de_uso_entrenar_logistica()

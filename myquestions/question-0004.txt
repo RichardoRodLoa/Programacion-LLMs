@@ -1,0 +1,17 @@
+El Problema:
+
+Tienes un DataFrame con características numéricas y una columna objetivo continua. Necesitas entrenar un modelo de regresión lineal y devolver el coeficiente de determinación 𝑅^2.
+
+Tu Misión:
+
+Escribe una función llamada evaluar_regresion_lineal(df, target_col) que:
+
+Separe las características (X) y la variable objetivo (y).
+
+Entrene un modelo de LinearRegression de sklearn.
+
+Devuelva el valor de 𝑅^2 del modelo sobre los mismos datos de entrenamiento.
+
+Función Generadora de Casos de Uso:
+
+generar_caso_de_uso_evaluar_regresion_lineal()

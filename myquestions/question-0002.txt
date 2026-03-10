@@ -1,0 +1,17 @@
+El Problema:
+
+Tienes un DataFrame con información de estudiantes: nombre, edad y nota final. Algunos estudiantes aparecen repetidos. Necesitas limpiar el DataFrame eliminando duplicados y ordenarlo por nota descendente.
+
+Tu Misión:
+
+Escribe una función llamada limpiar_y_ordenar_estudiantes(df, nombre_col, nota_col) que:
+
+Elimine filas duplicadas basadas en la columna de nombre (nombre_col).
+
+Ordene el DataFrame por la columna de nota (nota_col) en orden descendente.
+
+Devuelva el DataFrame limpio y ordenado.
+
+Función Generadora de Casos de Uso:
+
+generar_caso_de_uso_limpiar_y_ordenar_estudiantes()

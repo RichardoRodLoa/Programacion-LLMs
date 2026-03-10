@@ -1,0 +1,17 @@
+El Problema:
+
+Recibes un DataFrame con registros de ventas que incluye columnas de fechas, nombres de productos y cantidades vendidas. Necesitas agrupar las ventas por producto y calcular la suma total de unidades vendidas.
+
+Tu Misión:
+
+Escribe una función llamada agrupar_ventas(df, producto_col, cantidad_col) que:
+
+Agrupe el DataFrame por la columna de producto (producto_col).
+
+Calcule la suma total de la columna de cantidad (cantidad_col).
+
+Devuelva un DataFrame con dos columnas: producto y total_vendido.
+
+Función Generadora de Casos de Uso:
+
+generar_caso_de_uso_agrupar_ventas()
