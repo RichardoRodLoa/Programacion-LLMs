@@ -1,0 +1,11 @@
+Primera Pregunta (ID 0371)
+
+En la parte de generación de y_no_lineal, se usa una expresión condicional algo confusa (x[:, 1] ** 2 if n_features > 1 else 0.0).
+
+Funciona, pero podría ser más claro si se escribiera con un if explícito antes de la asignación.
+
+Tercera Pregunta (ID 0451)
+
+En la versión de referencia, al mezclar el DataFrame final se usa .sample(frac=1) sin random_state.
+
+Lo que implica que el orden puede variar en cada ejecución.
